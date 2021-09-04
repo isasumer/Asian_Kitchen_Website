@@ -81,3 +81,9 @@ const menu = [
       desc: `Red bean paste dessert, serving with honey.`,
     },
   ];
+  let list= ["All", "Korea", "Japan", "China"]
+  list.forEach(element => {
+  let btn = document.createElement("button");
+  btn.setAttribute("class", "btn-item");
+document.getElementById("btn-container").appendChild(btn);
+btn.innerHTML=`${element}`})
