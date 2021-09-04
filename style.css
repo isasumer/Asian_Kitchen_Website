@@ -16,14 +16,14 @@
   .menu {
     margin-top: 20px;
   }
-  #btn-container {
+  .btn-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 40px 0;
   }
-  .btn-item {
+  .btn-items {
     margin-left: 20px;
   }
   button:hover {
@@ -38,7 +38,7 @@ color: white;
     border: 0.25rem solid black;
     border-radius: 10px;
   }
-  .menu-item {
+  .menu-items {
     display: flex;
     margin: 20px 0;
   }

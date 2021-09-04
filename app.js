@@ -92,17 +92,11 @@ const menu = [
 
 const buttonList = () => {
   const displayButton = list.map((item) => {
-    return `<button class="btn btn-item" data-id=${item}> ${item}</button>`;
+    return `<button class="btn btn-items" data-id=${item}> ${item}</button>`;
   }).join("");
-  document.querySelector("#btn-container").innerHTML = displayButton;
+  document.querySelector(".btn-container").innerHTML = displayButton;
 
-
-
-
-
-
-
-const filterBtns = document.querySelectorAll(".btn-item");
+const filterBtns = document.querySelectorAll(".btn-items");
 filterBtns.forEach((btn) => {
   
   btn.addEventListener("click", (e) => {
@@ -123,10 +117,9 @@ filterBtns.forEach((btn) => {
 });
 };
 
-
 const menuList = (menuItems) => {
   let displayMenu = menuItems.map((item) => {
-    return `<div class="menu-items col-lg-6 col-sm-12">
+    return `<div class="menu-items col-lg-4 col-sm-12">
             <img
               src=${item.img}
               alt=${item.title}
