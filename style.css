@@ -1,26 +1,22 @@
 * {
     box-sizing: border-box;
   }
-  
   body {
     margin: 0;
     padding: 0;
     background-color: #f1f5f8;
     font-family: "Zilla Slab", serif;
   }
-  
   h2 {
     font-family: "Great Vibes", cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     color: #ff6a23;
   }
   .menu {
     margin-top: 20px;
   }
-  
   #btn-container {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -28,15 +24,13 @@
     margin: 40px 0;
   }
   .btn-item {
-    margin-left: 15px;
-
+    margin-left: 20px;
   }
   button:hover {
 transition-duration: 0.4s;
-background-color: #121312; /* Green */
+background-color: #ff6a23; /* Green */
 color: white;
 }
-
   .photo {
     width: 30%;
     height: 175px;
@@ -44,17 +38,14 @@ color: white;
     border: 0.25rem solid black;
     border-radius: 10px;
   }
-
-  .menu-items {
+  .menu-item {
     display: flex;
     margin: 20px 0;
   }
-
   .menu-info {
     margin-left: 20px;
     width: 100%;
   }
-
   .menu-title {
     display: flex;
     justify-content: space-between;
